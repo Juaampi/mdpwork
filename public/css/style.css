@@ -1,0 +1,104 @@
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .title-mdpwork{
+        font-family: 'Bowlby One SC', cursive;
+        color:white;
+        font-size: 25px;
+        text-shadow: 2px 2px #353535;
+
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .title-mdpwork{
+        font-family: 'Bowlby One SC', cursive;
+        color:white;
+        font-size: 25px;
+        text-shadow: 2px 2px #353535;
+
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .title-mdpwork{
+        font-family: 'Bowlby One SC', cursive;
+        color:white;
+        font-size: 50px;
+        text-shadow: 2px 2px #353535;
+
+      }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .title-mdpwork{
+        font-family: 'Bowlby One SC', cursive;
+        color:white;
+        font-size: 60px;
+        text-shadow: 2px 2px #353535;
+
+      }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .title-mdpwork{
+        font-family: 'Bowlby One SC', cursive;
+        color:white;
+        font-size: 60px;
+        text-shadow: 2px 2px #353535;
+
+      }
+      .title-description{
+        font-family: 'Kanit', sans-serif;
+        color:white;
+        text-align: center;
+        font-size: 18px;
+      }
+      .steps{
+        margin-top: 110px;
+      }
+      .steps-img{
+        height: 100px;
+      }
+}
